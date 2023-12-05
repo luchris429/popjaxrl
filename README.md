@@ -27,6 +27,10 @@ pip install -r requirements.txt
 
 In order to use JAX on your accelerators, you can find more details in the [JAX documentation](https://github.com/google/jax#installation).
 
+```
+pip install "jax[cuda12_pip]==0.4.7" -f https://storage.googleapis.com/jax-releases/jax_cuda_releases.html
+```
+
 ## Example Usage
 
 `python3 run_popgym.py --num-runs 1 --env BattleshipEasy --arch s5`
